@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+/*header {
+    background-color:#0a115f;
+    color: white;
+    padding: 20px 0px;
+
+}
+
+.navbar h1 {
+    display:flex;
+    margin:20px 0;
+    text-align:center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+*/
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gallery, .menu, .contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.gallery1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 9px;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.gallery1 img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.food-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.food-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.food-item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.food-item p {
+    color:#0a115f;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.menu{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+.navbar {
+    background-color: #0a0a5a;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.logo {
+    flex-grow: 3;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}

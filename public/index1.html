@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Availability</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#F6AC0F;
+        }
+        header {
+            background-color: #000336;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .room {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .room:last-child {
+            border-bottom: none;
+        }
+        .room-details {
+            flex: 1;
+        }
+        .room-name {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .room-description {
+            font-size: 1em;
+            color: #666;
+        }
+        .availability,
+        .price {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        .available {
+            color: green;
+        }
+        .unavailable {
+            color: red;
+        }
+        .price {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color:#000336;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hotel Room Availability</h1>
+    <p><em>Find your perfect room for your stay</em></p>
+</header>
+
+<div class="container">
+    <div class="room">
+        <div class="room-details">
+            <div class="room-name">Standard Room</div>
+            <div class="room-description" style="color: navy;">A comfortable room with basic amenities.</div>
+        </div>
+        <div class="availability available">Available</div>
+        <div class="price"><br />₹5,000 per night</div>
+    </div>
+
+    <div class="room">
+        <div class="room-details">
+            <div class="room-name">Deluxe Room</div>
+            <div class="room-description" style="color: navy;">A luxurious room with a king-sized bed and extra space.</div>
+        </div>
+        <div class="availability unavailable">Unavailable</div>
+        <div class="price"><br />₹10,000 per night</div>
+    </div>
+
+    <div class="room">
+        <div class="room-details">
+            <div class="room-name">Suite</div>
+            <div class="room-description" style="color: navy;">A spacious suite with a living area and a balcony.</div>
+        </div>
+        <div class="availability available">Available</div>
+        <div class="price"><br />₹15,000 per night</div>
+    </div>
+
+    <div class="room">
+        <div class="room-details">
+            <div class="room-name">Family Room</div>
+            <div class="room-description" style="color: navy;">A large room with multiple beds, ideal for families.</div>
+        </div>
+        <div class="availability available">Available</div>
+        <div class="price"><br />₹12,000 per night</div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Hotel Black Diamond| All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
