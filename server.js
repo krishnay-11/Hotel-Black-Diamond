@@ -36,11 +36,19 @@ app.post('/send-email', async (req, res) => {
         to: email,
         subject: 'Booking Confirmation',
         html: `<p>Hello ${name},</p>
-               <p>Your booking is confirmed.</p>
-               <p><b>Check-in:</b> ${checkin}<br>
-               <b>Check-out:</b> ${checkout}<br>
-               <b>Room Type:</b> ${roomType}</p>
-               <p>Thank you!</p>`
+               <p>Thank you for choosing <b>Hotel Black Diamond </b>
+                for your upcoming stay. We are delighted to confirm your reservation and lookung forward to providing you with acomfortable and memorable experience. Below are the details of your booking:</p>
+               <p><strong>Details:</strong></p>
+               <ul>
+               <li><b>Phone:</b> ${phone}</li>
+               <li><b>Check-in:</b> ${checkin}</li>
+               <li><b>Check-out:</b> ${checkout}</li>
+               <li><b>Room Type:</b> ${roomType}</li>
+               </ul>
+               <p>Best Regards,</p>
+               <p>Hotel Black Diamond</p>
+               
+               <p>We look forward to hosting you</p>`
     };
 
     try {
